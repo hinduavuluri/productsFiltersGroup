@@ -1,0 +1,69 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.list-item {
+  color: #475569;
+  font-family: roboto;
+  font-size: 20px;
+}
+.button {
+  font-family: roboto;
+  color: #0967d2;
+  height: 50px;
+  width: 15px;
+  border-color: #0967d2;
+  border-width: 2px;
+  background-color: #f1f5f9;
+  font-size: 25px;
+}
+.rating-image {
+  height: 20px;
+  width: 25px;
+}
+.active-list-item {
+  color: #0967d2;
+  font-family: roboto;
+  font-size: 20px;
+}
+.list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+.search-input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.input-search {
+  background-color: #f1f5f9;
+  color: #0f172a;
+  font-family: roboto;
+  font-size: 17px;
+}
+.search-icon {
+  font-size: 16px;
+  color: #0f172a;
+}
+.heading {
+  font-family: roboto;
+  font-size: 25px;
+  font-weight: bold;
+  color: #0f172a;
+}
+.category-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
